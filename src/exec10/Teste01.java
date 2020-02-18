@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Teste01 {
 	public static void main(String[] args) {
 		try {
-			Scanner leitor = new Scanner(new FileReader("entrada.txt"));
+			Scanner leitor = new Scanner(new FileReader("saida.txt"));
 			while(leitor.hasNext()) {
 			System.out.println(leitor.next());	
 			}
